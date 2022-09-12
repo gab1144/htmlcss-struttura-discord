@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(64,78,237);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 100px;
+}
+
+footer {
+  background-color: rgb(35,39,42);
+  height: 400px;
+  color: rgb(88,101,242);
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li{
+  padding: 10px;
+}
+
+.menu a{
+  color: white;
+}
+
+.jumbotron {
+  background-color: rgba(64, 78, 237, 0.356);
+  height: 500px;
+}
+
+.immagine {
+  width: 660px;
+  height: 430px;
+  background-color: yellow;
+}
+
+.contents {
+  height: 460px;
+  width: 460px;
+  background-color: orange;
+}
+
+.jumbotron .container {
+  background-color: gold;
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.info-server {
+  background-color: white;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-visibilita {
+  background-color: rgb(246,246,246);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-community {
+  background-color: white;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.download {
+  background-color: rgb(246,246,246);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
