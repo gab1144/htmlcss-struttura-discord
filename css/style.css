@@ -16,20 +16,24 @@ header {
 
 footer {
   background-color: rgb(35,39,42);
-  height: 400px;
+  height: 500px;
   color: rgb(88,101,242);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  padding: 40px 80px;
 }
 
-.menu ul{
+ header .menu ul{
   display: flex;
   list-style: none;
 }
 
-.menu ul li{
+header  .menu ul li{
   padding: 10px;
 }
 
-.menu a{
+header .menu a{
   color: white;
 }
 
@@ -83,15 +87,44 @@ footer {
 
 .download {
   background-color: rgb(246,246,246);
-  height: 600px;
+  height: 1300px;
   display: flex;
-  align-items:center;
-  justify-content:space-around;
   flex-direction: column;
+  justify-content:space-between;
   text-align: center;
+  padding-top: 125px;
+  padding-bottom: 120px;
 }
 
 .download .immagine {
   width: 90%;
   margin: auto;
+  height: 800px;
+  margin-bottom: 50px;
+}
+
+.download-contents{
+  margin-bottom: 50px;
+}
+
+.top-footer, .bottom-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-footer {
+  margin-bottom: 45px;
+  height: 240px;
+}
+
+.bottom-footer{
+  margin-top: 35px;
+}
+
+footer hr{
+  
+  color: rgb(88,101,242);
+  border-color: rgb(88,101,242);
+  background-color: rgb(88,101,242);
 }
