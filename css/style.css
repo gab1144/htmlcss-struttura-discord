@@ -182,6 +182,7 @@ header .container{
   height: 240px;
   align-content:flex-start;
   padding-top: 80px;
+  justify-content: space-between;
 }
 
 /*formattazione area sotto riga footer*/
@@ -190,18 +191,43 @@ header .container{
 }
 
 /*formattazione container footer*/
-footer .container {
+footer .container, .menu {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
 }
 
 /*formattazione menu footer*/
-footer .menu {
+footer .area-menu {
   height: 100%;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*dimensione menu*/
+footer .menu {
+  width: calc(100%/4);
 }
 
 /*dormattazione area indirizzi footer*/
 footer .indirizzi {
   height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*dimensiona e flex area loghi con indirizzo*/
+footer .indirizzi .loghi-indirizzi{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+/*dimensione loghi con indirizzo*/
+footer .indirizzi .logo-link{
+  width: 30px;
+  height: 30px;
 }
