@@ -14,16 +14,6 @@ header {
   padding: 0 100px;
 }
 
-footer {
-  background-color: rgb(35,39,42);
-  height: 500px;
-  color: rgb(88,101,242);
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  padding: 40px 80px;
-}
-
  header .menu ul{
   display: flex;
   list-style: none;
@@ -35,6 +25,19 @@ header  .menu ul li{
 
 header .menu a{
   color: white;
+}
+
+footer {
+  background-color: rgb(35,39,42);
+  height: 500px;
+  color: rgb(88,101,242);
+}
+
+footer hr{
+  
+  color: rgb(88,101,242);
+  border-color: rgb(88,101,242);
+  background-color: rgb(88,101,242);
 }
 
 .jumbotron {
@@ -54,14 +57,21 @@ header .menu a{
   background-color: orange;
 }
 
+.container {
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 .jumbotron .container {
   background-color: gold;
-  width: 50%;
-  margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 200px;
 }
 
 .jumbotron .contents {
@@ -86,9 +96,6 @@ header .menu a{
 .info-server, .info-visibilita, .info-community{
   background-color: white;
   height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .info-visibilita {
@@ -98,16 +105,19 @@ header .menu a{
 .download {
   background-color: rgb(246,246,246);
   height: 1300px;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  text-align: center;
   padding-top: 125px;
   padding-bottom: 120px;
 }
 
+.download .container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: center;
+}
+
 .download .immagine {
-  width: 90%;
+  width: 100%;
   margin: auto;
   height: 800px;
   margin-bottom: 50px;
@@ -118,6 +128,7 @@ header .menu a{
 }
 
 .top-footer, .bottom-footer{
+  width:100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,9 +143,8 @@ header .menu a{
   margin-top: 35px;
 }
 
-footer hr{
-  
-  color: rgb(88,101,242);
-  border-color: rgb(88,101,242);
-  background-color: rgb(88,101,242);
+footer .container {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
 }
