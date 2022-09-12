@@ -10,11 +10,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
-  padding: 0 100px;
 }
 
- header .menu ul{
+footer {
+  background-color: rgb(35,39,42);
+  height: 500px;
+  color: rgb(88,101,242);
+}
+
+header .menu ul{
   display: flex;
   list-style: none;
 }
@@ -25,12 +29,7 @@ header  .menu ul li{
 
 header .menu a{
   color: white;
-}
-
-footer {
-  background-color: rgb(35,39,42);
-  height: 500px;
-  color: rgb(88,101,242);
+  text-decoration: none;
 }
 
 footer hr{
@@ -38,6 +37,20 @@ footer hr{
   border-color: rgb(88,101,242);
   background-color: rgb(88,101,242);
   width: 100%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .container{
+  color: white;
+  padding: 0 100px;
 }
 
 .jumbotron {
@@ -55,6 +68,11 @@ footer hr{
   height: 460px;
   width: 460px;
   background-color: orange; /*da rimuove*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .container {
@@ -138,6 +156,8 @@ footer hr{
 .top-footer {
   margin-bottom: 45px;
   height: 240px;
+  align-content:flex-start;
+  padding-top: 80px;
 }
 
 .bottom-footer{
@@ -148,4 +168,12 @@ footer .container {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
+}
+
+footer .menu {
+  height: 100%;
+}
+
+footer .indirizzi {
+  height: 100%;
 }
