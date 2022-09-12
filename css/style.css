@@ -6,7 +6,7 @@
 
 header {
   background-color: rgb(64,78,237);
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@ header .menu a{
 
 .jumbotron {
   background-color: rgba(64, 78, 237, 0.356);
-  height: 500px;
+  height: 600px;
 }
 
 .immagine {
@@ -61,7 +61,7 @@ header .menu a{
   height: 100%;
 }
 
-.info-server {
+.info-server, .info-visibilita, .info-community{
   background-color: white;
   height: 600px;
   display: flex;
@@ -71,18 +71,6 @@ header .menu a{
 
 .info-visibilita {
   background-color: rgb(246,246,246);
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.info-community {
-  background-color: white;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .download {
